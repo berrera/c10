@@ -1,0 +1,67 @@
+Developing Data Products - Course Assignment - Presentation
+
+========================================================
+author: MB
+date: Dicember 2014
+transition: rotate
+
+<h2>Developing Data Products
+
+Course Assignment
+
+Presentation</h1>
+
+<h2>Planning and checking family budget</h2>
+
+Planning and checking family budget
+========================================================
+transition: fade
+
+To know if you will be begging for food or hiding from creditors,
+check you in-flow of money and comprare it with your out-flow.
+
+If the latter is more consistent than the other,
+get ready for the end of the month.
+
+In-money
+========================================================
+transition: zoom
+
+- Main income (salary or pension)
+- Profits from investments
+
+Out-money
+========================================================
+transition: concave
+
+- Rent or mortage
+- Bills such as electricity, water, rubbish collection...
+- House maintainance
+- Home/Car/Life/Health insurance
+- Car fuel
+- Car maintainance
+- School for children
+- Recreative activities (cinema, concerts, sports)
+- Food
+- Tax (it is not optional in several countries)
+- Something to take apart as savings for rainy days
+
+
+Examples
+========================================================
+transition: linear
+
+```{r}
+salary<-2000;
+rent<-800;
+recreative<-5000;
+other<-600;
+salary-(rent+recreative+other)
+```
+
+that is bad. Try reducing your fun activities and you'll be ok:
+```{r}
+recreative<-50;
+salary-(rent+recreative+other)
+```
+
