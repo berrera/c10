@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Introduction
 
 It is now possible to collect a large amount of data about personal
@@ -166,3 +167,7 @@ https://github.com/rdpeng/RepData_PeerAssessment1
 
 7c376cc5447f11537f8740af8e07d6facc3d9645
 ```
+=======
+Documentation: this to to have a summary of the family budject, money in and out, to know if you will get to the end of the month begging for food and hiding from creditors. Write your figures in the following fields.
+
+>>>>>>> 3536d3a5739149cb9a01ecf473bfc16e3dbeac8b
