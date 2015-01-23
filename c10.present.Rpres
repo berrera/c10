@@ -2,7 +2,7 @@ Developing Data Products - Course Assignment - Presentation
 
 ========================================================
 author: MB
-date: Dicember 2014
+date: January 2015
 transition: rotate
 
 <h2>Developing Data Products
@@ -12,10 +12,6 @@ Course Assignment
 Presentation</h1>
 
 <h2>Planning and checking family budget</h2>
-
-Planning and checking family budget
-========================================================
-transition: fade
 
 To know if you will be begging for food or hiding from creditors,
 check you in-flow of money and comprare it with your out-flow.
@@ -63,5 +59,16 @@ that is bad. Try reducing your fun activities and you'll be ok:
 ```{r}
 recreative<-50;
 salary-(rent+recreative+other)
+```
+
+Money left: a graphical view
+========================================================
+transition: fade
+
+```{r}
+library(wordcloud)
+total_in <- 10000;
+total_out <- 6000;
+wordcloud(c("IN","OUT", "MONEY2SPEND"), freq=c(total_in, total_out, total_in-total_out), scale=c(10,0.2), colors=rainbow(3), ordered.colors=TRUE)
 ```
 
