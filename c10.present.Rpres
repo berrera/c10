@@ -13,6 +13,10 @@ Presentation</h1>
 
 <h2>Planning and checking family budget</h2>
 
+Planning and checking family budget
+========================================================
+transition: fade
+
 To know if you will be begging for food or hiding from creditors,
 check you in-flow of money and comprare it with your out-flow.
 
@@ -71,4 +75,6 @@ total_in <- 10000;
 total_out <- 6000;
 wordcloud(c("IN","OUT", "MONEY2SPEND"), freq=c(total_in, total_out, total_in-total_out), scale=c(10,0.2), colors=rainbow(3), ordered.colors=TRUE)
 ```
+
+=======
 
