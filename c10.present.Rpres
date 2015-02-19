@@ -72,5 +72,3 @@ total_out <- 6000;
 wordcloud(c("IN","OUT", "MONEY2SPEND"), freq=c(total_in, total_out, total_in-total_out), scale=c(10,0.2), colors=rainbow(3), ordered.colors=TRUE)
 ```
 
-=======
-
